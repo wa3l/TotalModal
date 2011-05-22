@@ -1,3 +1,9 @@
+/*! Copyright (c) 2011 Wael Al-Sallami (http://wa3l.com)
+ * Dual licensed under the MIT (MIT_LICENSE.txt)
+ * and GPL Version 2 (GPL_LICENSE.txt) licenses.
+ * Version: 1.1.1
+ * Requires jQuery 1.3+
+ */
 (function($){
   $.modal = function(params){
     // is there any other modal displayed now?
