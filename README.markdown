@@ -5,7 +5,6 @@ An easy to use jQuery plugin to handle notification boxes and confirmation boxes
 Disclaimer: This is based on a plugin called jquery.confirm and some other code, I only improved and added features to the original plugin.
 
 ---
-
 Usage
 -----
   `require 'zipcodr'`  
