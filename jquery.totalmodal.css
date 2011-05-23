@@ -1,0 +1,68 @@
+#modal-overlay{
+  width: 100%; height: 100%;
+  position: fixed;
+  top: 0; left: 0;
+  background: url(images/confirm/ie.png);
+  background: -moz-linear-gradient(rgba(11,11,11,0.1), rgba(11,11,11,0.6)) repeat-x rgba(11,11,11,0.2);
+  background: -webkit-gradient(linear, 0% 0%, 0% 0%, from(rgba(11,11,11,0.1)), to(rgba(11,11,11,0.6))) repeat-x rgba(11,11,11,0.2);
+  z-index:100000;
+}
+.modal{
+  font: 18px/25px "MuseoSlab500", Arial , Helvetica, sans-serif;
+  background: white;
+  width: 500px;
+  position:fixed;
+  left:50%; top:50%;
+  margin: -130px 0 0 -250px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  text-shadow: 1px 1px 0 rgba(150, 150, 150, 0.1);
+  text-align: center;
+}
+.modal ul{
+    text-align: left;
+    list-style-position: outside;
+    list-style: disc;
+    margin: 0 25px 0 75px;
+}
+.modal p{
+  text-align: center;
+  margin: 30px 25px 20px 25px;
+  color: #333;
+}
+.modal > span{
+  font-size: 11px;
+  margin: 0 15px 0 15px;
+  color: #333;
+}
+.modal .buttons{
+  font: 17px/33px "MuseoSlab500", Arial , Helvetica, sans-serif;
+  padding: 15px 0 25px;
+  text-align: center;
+}
+.modal .button{
+  display: inline-block;
+  background: url(images/confirm/buttons2.png) no-repeat;
+  color: white;
+  position: relative;
+  height: 33px;
+  margin-right: 25px;
+  padding: 0 35px 0 40px;
+  text-decoration: none;
+  border: none;
+}
+.modal .button span{
+  position: absolute;
+  top: 0; right: -5px;
+  background: url(images/confirm/buttons2.png) no-repeat;
+  width: 5px; height: 33px;
+}
+.button.blue{ background-position: left top; text-shadow:1px 1px 0 #5889a2;   }
+.button.gray{ background-position: -200px top; text-shadow:1px 1px 0 #707070; }
+.button.blue span       { background-position: -195px 0;      }
+.button.blue:hover      { background-position: left bottom;   }
+.button.blue:hover span { background-position: -195px bottom; }
+.button.gray span       { background-position: -395px 0;      }
+.button.gray:hover      { background-position: -200px bottom; }
+.button.gray:hover span { background-position: -395px bottom; }

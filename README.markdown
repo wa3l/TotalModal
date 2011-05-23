@@ -7,12 +7,8 @@ Disclaimer: This is based on a plugin called jquery.confirm and some other code,
 ---
 Usage
 -----
-  `require 'zipcodr'`  
-  `Zipcodr::find('94720')         # returns a ZipCode object.`  
-  `Zipcodr::find('94720').zip     # returns a zip code string.`  
-  `Zipcodr::find('94720').city    # returns a city string.`  
-  `Zipcodr::find('94720').state   # returns a state short code string.`  
-  `Zipcodr::find('94720').county  # returns a county string.`  
-  `Zipcodr::find('94720').long    # returns a longitude integer.`  
-  `Zipcodr::find('94720').lat     # returns a latitude integer.`  
-  `Zipcodr::find('94720').valid?  # returns a validity boolean.`
+To use TotalModal, you first have to include jQuery, TotalModal JS file, and the associated CSS document:
+`<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<script src="jquery.totalmodal.js" type="text/javascript"></script>
+<link rel="stylesheet" href="jquery.totalmodal.css" type="text/css" media="screen">
+`

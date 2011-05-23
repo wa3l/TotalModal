@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>TotalModal Example</title>
+    <meta name="author" content="Wael Al-Sallami">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+    <script src="jquery.totalmodal.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="jquery.totalmodal.css" type="text/css" media="screen">
+    <script type="text/javascript">
+      $(function() {
+        $('.confirm-one-button').click(function(){
+          $.modal({
+            'message': "This is a Confirmation box!",
+            'buttons': {
+              'OK': {
+                'class' : 'blue',
+                'action': function(){
+                  $('.clicked').text('You clicked the OK button!');
+                }
+              }
+            }
+          });
+          return false;
+        });
+
+        $('.confirm-two-buttons').click(function(){
+          $.modal({
+            'message': "This is a Confirmation box!",
+            'buttons': {
+              'OK': {
+                'class' : 'blue',
+                'action': function(){
+                  $('.clicked').text('You clicked the OK button!');
+                }
+              },
+              'Cancel': {
+                'class' : 'gray',
+                'action': function(){
+                  $('.clicked').text('You clicked the Cancel button!');
+                }
+              }
+            }
+          });
+          return false;
+        });
+
+        $('.notify-timeout').click(function(){
+          $.modal({
+            'message': "This is a Notification box! Click anywhere to hide it or wait for the timeout!",
+            'min_time': 5000,
+            'char_time': 75
+          });
+        });
+        
+        $('.notify-no-timeout').click(function(){
+          $.modal({ 'message': "This is a Notification box! Click anywhere to hide it!" });
+        });
+        
+      });
+    </script>
+  </head>
+<body>
+  <h1>Examples:</h1>
+  <a class='confirm-one-button' href="#">Confirmation Box</a> with one button.
+  <br>
+  <a class='confirm-two-buttons' href="#">Confirmation Box</a> with two buttons.
+  <p class="clicked" style="color:red"></p>
+  <a class='notify-timeout' href="#">Notification Box</a> with timeout.
+  <br>
+  <a class='notify-no-timeout' href="#">Notification Box</a> without timeout.
+</body>
+</html>

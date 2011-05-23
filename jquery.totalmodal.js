@@ -52,7 +52,7 @@
     }, 2000)
     // hide it if no keypress or click events are
     // triggered before the timeout:
-    var time = params.min_time + params.char_time * Math.sqrt(message.length);
+    var time = params.min_time + params.char_time * Math.sqrt(params.message.length);
     setTimeout("$.modal.hide()", time);
   }
 
