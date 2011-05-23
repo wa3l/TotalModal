@@ -1,6 +1,5 @@
 /*! Copyright (c) 2011 Wael Al-Sallami (http://wa3l.com)
- * Dual licensed under the MIT (MIT_LICENSE.txt)
- * and GPL Version 2 (GPL_LICENSE.txt) licenses.
+ * Public domain: http://unlicense.org
  * Version: 0.1
  * Requires jQuery 1.3+
  */
