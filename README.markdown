@@ -8,7 +8,6 @@ Disclaimer: This is based on a plugin called jquery.confirm and some other code,
 Usage
 -----
 To use TotalModal, you first have to include jQuery, TotalModal JS file, and the associated CSS document:
-`<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
-<script src="jquery.totalmodal.js" type="text/javascript"></script>
-<link rel="stylesheet" href="jquery.totalmodal.css" type="text/css" media="screen">
-`
+`&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;jquery.totalmodal.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;jquery.totalmodal.css&quot; type=&quot;text/css&quot; media=&quot;screen&quot;&gt;`
